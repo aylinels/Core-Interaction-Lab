@@ -1,0 +1,37 @@
+body{
+margin: 0;
+padding: 0;
+background-color: white;
+}
+
+p{
+color: lightgreen;
+}
+
+a{
+color: orange;
+}
+
+ol{
+background-color: yellow;
+letter-spacing: 5px;
+}
+
+.lightgreen{
+	background-color: pink;
+	font-size: 24px;
+}
+
+#third{
+font-family: sans-serif;
+}
+
+div{
+	width: 50%;
+	background-color: lightpink;
+	height: 20%;
+	padding: 20px;
+	padding-bottom: 10px;
+	border: dashed 5px orange;
+	margin: 20px;
+}
