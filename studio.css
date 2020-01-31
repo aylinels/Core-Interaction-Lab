@@ -14,7 +14,7 @@ a {
 .home {
  position: relative;
  left: -25px;
- top: 40px;
+ top: -150px;
 }
 
 .project {
@@ -23,7 +23,7 @@ a {
   font-weight: bold;
   font-size: 2vh;
   width: 300px;
-  top: 30%;
+  top: 20%;
   left: 4%;
   text-transform: uppercase;
 }
@@ -42,8 +42,8 @@ a {
   border-color: black;
   border-width: 1px;
   border-radius: 44%;
-  left: 87%;
-  top: -18vh;
+  left: 280%;
+  top: -12vh;
   transform: rotate(-35deg)
 }
 
@@ -64,7 +64,7 @@ a {
   background-color: black;
   width: 500px;
   height: 2px;
-  top: -27vh;
+  top: -21vh;
   left: -15px;
 
 }
