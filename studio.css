@@ -1,0 +1,13 @@
+body {
+	font-family: Termina;
+	font-size: 50px;
+	margin-left: 40px
+}
+
+a {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+    text-decoration: none;
+}
+
