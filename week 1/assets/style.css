@@ -1,0 +1,68 @@
+
+/*keeping the box at the same size when padding is added:*/
+/*box-sizing: border-box*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+html {
+	font-size: 2 vw;
+}
+
+.menu {
+	z-index: 100;
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	background-color: pink;
+}
+
+
+.box {
+	display: inline-block;
+	/*inline block will depend on how it was formatted in the html file*/
+	width: 33.33%;
+	height: 2rem;
+	vertical-align: middle;
+	/*also top and bottom*/
+	position: relative;
+	overflow: hidden;
+}
+
+#box-1 {
+	background-color: red;
+	height: 4rem;
+}
+
+#box-2 {
+	background-color: green;
+}
+
+#box-2 .absolute {
+	background-color: white;
+
+}
+
+#box-3{
+	background-color: blue;
+}
+
+.absolute{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	top: 50%;
+	left: 15rem;
+	background-color: black;
+	transform: rotate(15deg);
+	/*also skew, translate (pushes everything to the right and left; without changing position px)*/
+}
+
+
+
+
+
+

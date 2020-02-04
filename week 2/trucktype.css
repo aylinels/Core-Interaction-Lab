@@ -1,0 +1,90 @@
+html{
+	margin: 30px;
+}
+
+.red{
+	position: absolute;
+	height: 90vh;
+	width: 45vw;
+	border: 10px solid #e60000;
+}
+
+.middle{
+	position: absolute;
+	top: 42%;
+	left: 23%;
+	height: 28vh;
+	width: 6vw;
+	background-color: #e60000;
+}
+
+.bottom{
+	position: absolute;
+	top: 70%;
+	left: 23%;
+	height: 3vh;
+	width: 26vw;
+	background-color: #e60000;
+}
+
+#first{
+    position: absolute;
+	top: 16%;
+	left: 17.5%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-45deg);
+/*	border: 2px solid black;*/
+
+}
+
+#second{
+    position: absolute;
+	top: 28%;
+	left: 17.5%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-90deg);
+/*	border: 2px solid black;*/
+}
+
+#third{
+    position: absolute;
+	top: 42%;
+	left: 17.5%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-135deg);
+/*	border: 2px solid black;*/
+}
+
+.square{
+	position: absolute;
+	top: 15%;
+	left: 23%;
+	height: 5vw;
+	width: 5vw;
+	border: 10px solid #e60000;
+}
+
+@media (max-width: 768px){ 
+	/*768px is about the size of every smartphone*/
+	.square{ 
+		font-size: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	/*centers!*/
+	}
+}
+
+/*@media print - can change whatever you want when it's printed*/
+
+
+
+
+
+
+
