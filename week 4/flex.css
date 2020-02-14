@@ -1,0 +1,29 @@
+.parent{
+	display: flex;
+	/*display: flex will work as a display block but will also apply to all its children*/
+	/*inline-block, inline, inline-flex (same as inline-block but also applies to all its children)...*/
+	flex-direction: column;
+	/*row (stacks horizontally) columns (stacks them vertically)*/
+	/*also row reverse, and columns reverse*/
+	flex-wrap: nowrap;
+	/*keeps div display block when sizing page*/
+	justify-content: space-between;
+	/*applies to flex-direction, space-between (fills space between divs), center (centers everything), flex-end (everything to the right) */
+	align-items: stretch;
+}
+
+#vertical{
+	flex-direction: column;
+	align-items: center;
+}
+
+.child{
+	padding: 1rem;
+	background-color: pink;
+	color: white;
+	margin: 1rem;
+}
+
+.child:nth-of-type(even){
+	background-color: red;
+}

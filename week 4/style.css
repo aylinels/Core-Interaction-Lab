@@ -1,0 +1,66 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+
+input {
+	color: white;
+}
+
+.myLink {
+	font-family: Futura;
+	padding: 1rem;
+	font-size: 2rem;
+	transition: background-color 0.5s ease-out;
+}
+
+.myLink:visited {
+	color: red;
+}
+
+.myLink:hover {
+	background-color: red;
+	color: white;
+}
+
+/*when clicking the link*/
+.myLink:active {
+	background-color: blue;
+}
+
+/*when focusing on link/ when link is selected, helpful*/
+.myLink:focus {
+	background-color: yellow;
+}
+
+
+.myParagraph {
+	font-family: Futura;
+	font-size: 2rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*applies css to the first in the list of elements with the same class*/
+.myParagraph:first-of-type{
+	border: dashed 0.1rem black;
+}
+/*also last-of-type*/
+
+.myParagraph:nth-of-type(3n){
+	background-color: pink;
+}
+
+/*odd: all the odd numbers
+if i use "3" or any other number: it will take the 3rd one
+Number + "n" = every number one (ex: 3n, every multiple of 3 will apply this class)
+
+*/
+
+/*applies style to everything except the one that is signaled*/
+.myParagraph:not(#special){
+	font-style: italic;
+}
+
+
