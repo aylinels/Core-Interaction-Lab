@@ -1,0 +1,136 @@
+.bg{
+	position: absolute;
+	padding: 20px;
+	height: 200vh;
+	width: 93vw;
+	top: 20px;
+	left: 2%;
+	background-color: #f76700;
+}
+
+
+.rec{
+	position: relative;
+	height: 60vh;
+	width: 60vh;
+	top: 12vh;
+	left: 15vw;
+	background-color: black;
+}
+
+.rec:nth-of-type(2){
+	position: absolute;
+	top: 73vh;
+	left: 48.5vw;
+	height: 50vh;
+	width: 50vh;
+}
+
+.rec:nth-of-type(3){
+	position: absolute;
+	top: 122vh;
+	left: 25vw;
+	height: 40vh;
+	width: 40vh;
+}
+
+.square{
+	position: absolute;
+	height: 60vh;
+	width: 60vh;
+	top: 18vh;
+	left: 9.5vw;
+	background-color: white;
+	transition: left 0.5s;
+
+}
+
+#two{
+	position: absolute;
+	top: 78vh;
+	left: 42.5vw;
+	height: 50vh;
+	width: 50vh;
+	  	animation-name: drop;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite
+}
+
+@keyframes drop {
+ 0%   {top: 78vh;}
+ 50% {top: 68vh;}
+ 100% {top: 78vh;}
+}
+
+#three{
+	position: absolute;
+	top: 128vh;
+	left: 20.5vw;
+	height: 40vh;
+	width: 40vh;
+}
+
+
+.child{
+	position: absolute;
+	height: 10vh;
+	width: 10vh;
+	top: 18vh;
+	left: 9.5vw;
+	background-color: black;
+}
+
+.child:nth-of-type(2){
+	position: absolute;
+	height: 15vh;
+	width: 15vh;
+	top: 40vh;
+	left: 17vw;
+}
+
+#baby{
+	position: absolute;
+	height: 18vh;
+	width: 18vh;
+	top: 5vh;
+}
+
+#parent{
+	position: absolute;
+	height: 13vh;
+	width: 13vh;
+	top: 30vh;
+	left: 5vh;
+}
+
+#small{
+	position: absolute;
+	height: 8vh;
+	width: 8vh;
+}
+
+#big{
+	position: absolute;
+	height: 12vh;
+	width: 12vh;
+	top: 5vh;
+}
+
+
+@media (max-width: 800px) {
+  .bg{ background: red;}
+  .rec{ background-color: #fc3903;}
+  .child {background-color: #fc3903;}
+
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+   .bg{ background-color: red;}
+  .square{ background-color: pink;}
+    .rec{ background-color: white;}
+}
+
+@media (min-width: 1201px) {
+  .child {display: none; }
+}
+
