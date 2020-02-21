@@ -1,3 +1,7 @@
+var button = document.getElementById('button');
+button.addEventListener("click", drawLeaf);
+
+
 function createImgDiv (){
 var img = document.createElement("img");
 img.src = "img/leaf.png";
@@ -7,15 +11,7 @@ if (src.childElementCount <30)
 src.appendChild(img);
 }
 
-
-for (i = 0; i < 22; i++){
-console.log([i])
+function drawLeaf(){
+setInterval(createImgDiv, 500);
 }
 
-setInterval(createImgDiv, 300);
-// var img = document.createElement("img");
-// img.src = "img/leaf.png";
-
-// for (i = 0; i < img.length; i++) {
-//   img[i].classList.add("img_style");
-// }

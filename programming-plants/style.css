@@ -1,5 +1,6 @@
 body {
 	background-color: lightpink;
+	overflow: hidden;
 }
 
 div {
@@ -175,4 +176,11 @@ img:nth-of-type(29){
 	top: 70%;
 	left: -20%;
 	transform: rotate(70deg);
+}
+
+#button {
+	position: absolute;
+	top: -25%;
+	left: -12%;
+	height: 80%;
 }
