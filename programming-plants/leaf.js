@@ -12,6 +12,6 @@ src.appendChild(img);
 }
 
 function drawLeaf(){
-setInterval(createImgDiv, 500);
+setInterval(createImgDiv, 300);
 }
 
