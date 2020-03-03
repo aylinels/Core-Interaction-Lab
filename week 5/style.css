@@ -1,0 +1,24 @@
+html, body {
+	color: red;
+	font-size: 2vw;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#square {
+	width: 5rem;
+	height: 5rem;
+/*	border: dotted 2px black;*/
+	transition: background-color .5s;
+}
+
+.circle {
+	width: 5rem;
+	height: 5rem;
+	/*border: solid 2px red;*/
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+}
