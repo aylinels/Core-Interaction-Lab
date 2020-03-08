@@ -90,9 +90,7 @@ for (var i = 0; i < circles.length; i++) {
 
 //  i = i + 2 if you want to add my two (instead of the i++ = i + 1)
 
-
 for (var i = 0; i < 100; i++) {
-
 }
 
 var title = document.querySelector("h1");
@@ -132,9 +130,6 @@ setInterval(function(){
 	}
 }, 1000)
 
-// beforebegin, afterbegin, beforeend, afterend
-
-var now = new Date ()
 
 
 

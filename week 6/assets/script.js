@@ -72,6 +72,6 @@ function Clock(){
 }
 
 
-setInterval(Clock, 1);
+setInterval(Clock, 1000);
 
 

@@ -8,17 +8,28 @@
 	background-color: #f76700;
 }
 
+#circle{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 5rem;
+	height: 5rem;
+	border: solid 2px red;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+}
 
-.rec{
+#rec{
 	position: relative;
 	height: 60vh;
 	width: 60vh;
 	top: 12vh;
 	left: 15vw;
-	background-color: black;
+	background-color: red;
 }
 
-.rec:nth-of-type(2){
+#rec:nth-of-type(2){
 	position: absolute;
 	top: 73vh;
 	left: 48.5vw;
@@ -26,7 +37,7 @@
 	width: 50vh;
 }
 
-.rec:nth-of-type(3){
+#rec:nth-of-type(3){
 	position: absolute;
 	top: 122vh;
 	left: 25vw;
@@ -119,7 +130,7 @@
 
 @media (max-width: 800px) {
   .bg{ background: red;}
-  .rec{ background-color: #fc3903;}
+  #rec{ background-color: #fc3903;}
   .child {background-color: #fc3903;}
 
 }
@@ -127,7 +138,7 @@
 @media (min-width: 801px) and (max-width: 1200px) {
    .bg{ background-color: red;}
   .square{ background-color: pink;}
-    .rec{ background-color: white;}
+    #rec{ background-color: white;}
 }
 
 @media (min-width: 1201px) {
