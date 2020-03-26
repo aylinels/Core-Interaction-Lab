@@ -1,0 +1,181 @@
+html {
+	margin: 30px;
+}
+
+.gray {
+	position: absolute;
+	top: 5.5%;
+	left: 25%;
+	background-color: #3f4045;
+	height: 92.8vh;
+	width: 2vw;
+	opacity: 0.9;
+}
+
+.red {
+	position: absolute;
+	height: 90vh;
+	width: 45vw;
+	border: 10px solid #e60000;
+}
+
+.middle {
+	position: absolute;
+	top: 42%;
+	left: 23%;
+	height: 35vh;
+	width: 6vw;
+	background-color: #e60000;
+}
+
+.bottom {
+	position: absolute;
+	top: 75%;
+	left: 23%;
+	height: 3vh;
+	width: 26vw;
+	background-color: #e60000;
+}
+
+#first {
+    position: absolute;
+	top: 20%;
+	left: 18%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-45deg);
+/*	border: 2px solid black;*/
+
+}
+
+#second {
+    position: absolute;
+	top: 33%;
+	left: 17.5%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-90deg);
+/*	border: 2px solid black;*/
+}
+
+#third {
+    position: absolute;
+	top: 42%;
+	left: 17.5%;
+	height: 30vh;
+	width: 6vw;
+	background-color: #e60000;
+	transform: rotate(-135deg);
+/*	border: 2px solid black;*/
+}
+
+.square {
+	position: absolute;
+	top: 12%;
+	left: 23%;
+	height: 5vw;
+	width: 5vw;
+	border: 10px solid #e60000;
+}
+
+
+#s2 {
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	height: 5vw;
+	width: 5vw;
+	border: 10px solid #e60000;
+	transform: rotate(50deg);
+}
+
+
+#s3 {
+	position: absolute;
+	top: 38%;
+	left: 39%;
+	height: 5vw;
+	width: 5vw;
+	border: 10px solid #e60000;
+	transform: rotate(90deg);
+}
+
+#s4 {
+	position: absolute;
+	top: 58%;
+	left: 35%;
+	height: 5vw;
+	width: 5vw;
+	border: 10px solid #e60000;
+	transform: rotate(-40deg);
+}
+
+.yellow {
+	position: absolute;
+	top: 91%;
+	left: 6%;
+	height: 2vw;
+	width: 10vw;
+	background-color: #dbb312;
+	border: 10px solid #e60000;
+}
+
+#y2 {
+	position: absolute;
+	top: 91%;
+	left: 35%;
+	height: 2vw;
+	width: 10vw;
+	background-color: #dbb312;
+	border: 10px solid #e60000;
+}
+
+#email {
+	position: absolute;
+	top: 78%;
+	left: 5%;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: -.5px;
+	font-size: 30px;
+	color: #3544cc;
+}
+
+img {
+	position: absolute;
+	top: 7%;
+	left: 5%;
+	height: 50px;
+}
+
+.title {
+	position: absolute;
+	top: 10%;
+	left: 52%;
+	font-family: Futura, sans-serif;
+	letter-spacing: -.5px;
+	font-size: 8vw;
+	color: black;
+	text-align: center;
+}
+
+
+@media (max-width: 768px){ 
+	/*768px is about the size of every smartphone*/
+	.square{ 
+		font-size: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	/*centers!*/
+	}
+}
+
+/*@media print - can change whatever you want when it's printed*/
+
+
+
+
+
+
+
