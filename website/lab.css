@@ -52,14 +52,26 @@ a {
   font-family: helvetica;
   font-weight: bold;
   font-size: 5vh;
-  width: 27vw;
+  width: 50vw;
   top: 30%;
   left: 4%;
   text-transform: uppercase;
   padding: 4px;
 }
 
-.project:hover, .project:active, .project2:hover {
+.project3 {
+  position: absolute;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 5vh;
+  width: 50vw;
+  top: 40%;
+  left: 4%;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+.project:hover, .project:active, .project2:hover, .project3:hover {
    border: 1px solid black;
   }
 
