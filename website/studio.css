@@ -39,14 +39,27 @@ a {
   position: absolute;
   font-family: helvetica;
   font-weight: bold;
-  font-size: 2vh;
-  width: 300px;
+  font-size: 5vh;
+  width: 48vw;
   top: 20%;
   left: 4%;
   text-transform: uppercase;
+  padding: 4px;
 }
 
-.project:hover, .project:active {
+.project2 {
+  position: absolute;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 5vh;
+  width: 27vw;
+  top: 30%;
+  left: 4%;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+.project:hover, .project:active, .project2:hover {
    border: 1px solid black;
   }
 
@@ -60,7 +73,7 @@ a {
   border-color: black;
   border-width: 1px;
   border-radius: 44%;
-  left: 280%;
+  left: 310%;
   top: -12vh;
   transform: rotate(-35deg)
 }
