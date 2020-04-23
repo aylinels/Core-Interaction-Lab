@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: blue;
+}
+
 .circle {
   position: relative;
   height: 150px;
