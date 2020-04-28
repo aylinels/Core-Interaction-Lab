@@ -4,6 +4,7 @@ html {
     animation-iteration-count: 1;
     animation-timing-function: linear;
     margin: 0;
+    height: 130vh;
 }
 
 @keyframes fadeIn {
@@ -17,17 +18,37 @@ html {
 }
 
 body {
-	font-family: Termina;
 	margin-left: 60px;
 }
 
 a {
-	display: inline-block;
-	padding: 10px;
-	color: black;
-    text-decoration: none;
-    font-size: 30px;
+  font-family: 'Avenir Next';
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
 }
+
+#links {
+  position: absolute;
+  top: 3vh;
+  left: 40vw;
+}
+
+#studio {
+  position: absolute;
+  top: 3vh;
+  left: 47.5vw;
+  color: blue;
+}
+
+
+#lab {
+  position: absolute;
+  top: 3vh;
+  left: 55vw;
+}
+
 
 .home {
  position: relative;
@@ -43,10 +64,10 @@ a {
 .project {
   position: absolute;
   font-family: 'Avenir Next';
-  font-size: 3vh;
+  font-size: 8vh;
   width: 48vw;
-  top: 20%;
-  left: 4%;
+  top: 25%;
+  left: 9%;
   text-transform: lowercase;
   padding: 4px;
 }
@@ -54,18 +75,13 @@ a {
 .project2 {
   position: absolute;
   font-family: 'Avenir Next';
-  font-size: 3vh;
-  width: 27vw;
-  top: 26%;
-  left: 4%;
+  font-size: 8vh;
+  width: 48vw;
+  top: 75%;
+  left: 9%;
   text-transform: lowercase;
   padding: 4px;
 }
-
-.project:hover, .project:active, .project2:hover {
-   color: blue;
-  }
-
 
 .circle {
   position: relative;
@@ -76,7 +92,7 @@ a {
   border-color: black;
   border-width: 1px;
   border-radius: 44%;
-  left: 310%;
+  left: 90%;
   top: -12vh;
   transform: rotate(-35deg)
 }
@@ -96,9 +112,78 @@ a {
 .line {
   position: relative;
   background-color: black;
-  width: 500px;
+  width: 538px;
   height: 2px;
-  top: -21vh;
-  left: -15px;
+  top:  7vh;
+  left: 13px;
 
 }
+
+.line2 {
+  position: relative;
+  background-color: black;
+  width: 208px;
+  height: 2px;
+  top:  57vh;
+  left: 13px;
+
+}
+
+.number {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  top: 30.5%;
+  left: 6%;
+  text-transform: lowercase;
+}
+
+.number2 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  top: 80.5%;
+  left: 6%;
+  text-transform: lowercase;
+}
+
+.text1 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 26vw;
+  top: 50.5%;
+  left: 60%;
+}
+
+.text2 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 26vw;
+  top: 100.5%;
+  left: 60%;
+}
+
+.check {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 26vw;
+  top: 65.5%;
+  left: 60%;
+}
+
+.check2 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 26vw;
+  top: 114%;
+  left: 60%;
+}
+
+.check:hover, .check:active, .check2:hover {
+   color: blue;
+  }
+
