@@ -4,7 +4,7 @@ html {
     animation-iteration-count: 1;
     animation-timing-function: linear;
     margin: 0;
-    height: 130vh;
+    height: 190vh;
 }
 
 @keyframes fadeIn {
@@ -83,6 +83,17 @@ a {
   padding: 4px;
 }
 
+.project3 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 8vh;
+  width: 50vw;
+  top: 128%;
+  left: 9%;
+  text-transform: lowercase;
+  padding: 4px;
+}
+
 .circle {
   position: relative;
   height: 200px;
@@ -116,7 +127,6 @@ a {
   height: 2px;
   top:  7vh;
   left: 13px;
-
 }
 
 .line2 {
@@ -126,7 +136,15 @@ a {
   height: 2px;
   top:  57vh;
   left: 13px;
+}
 
+.line3 {
+  position: relative;
+  background-color: black;
+  width: 348px;
+  height: 2px;
+  top:  110vh;
+  left: 13px;
 }
 
 .number {
@@ -147,22 +165,43 @@ a {
   text-transform: lowercase;
 }
 
+.number3 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  top: 133.5%;
+  left: 6%;
+  text-transform: lowercase;
+}
+
 .text1 {
   position: absolute;
   font-family: 'Avenir Next';
   font-size: 1.5vh;
-  width: 26vw;
+  width: 27vw;
   top: 50.5%;
   left: 60%;
+  text-align: justify;
 }
 
 .text2 {
   position: absolute;
   font-family: 'Avenir Next';
   font-size: 1.5vh;
-  width: 26vw;
+  width: 27vw;
   top: 100.5%;
   left: 60%;
+  text-align: justify;
+}
+
+.text3 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 27vw;
+  top: 153%;
+  left: 60%;
+  text-align: justify;
 }
 
 .check {
@@ -183,7 +222,16 @@ a {
   left: 60%;
 }
 
-.check:hover, .check:active, .check2:hover {
+.check3 {
+  position: absolute;
+  font-family: 'Avenir Next';
+  font-size: 1.5vh;
+  width: 26vw;
+  top: 179%;
+  left: 60%;
+}
+
+.check:hover, .check:active, .check2:hover, .check3:hover {
    color: blue;
   }
 

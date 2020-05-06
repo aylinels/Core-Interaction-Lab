@@ -46,7 +46,7 @@ a:hover{
 
 #links {
   position: absolute;
-  top: 30vh;
+  top: 62vh;
   left: 1vw;
   transform: rotate(-90deg);
 }
@@ -61,7 +61,7 @@ a:hover{
 
 #lab {
   position: absolute;
-  top: 62vh;
+  top: 30vh;
   left: 1.5vw;
   transform: rotate(-90deg);
 }
